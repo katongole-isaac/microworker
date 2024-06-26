@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Simple Basic Form</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="form-section">
+
+            <form id="my-form">
+
+              <div class="heading">
+                <h1>Basic Form</h1>
+              </div>
+
+              <div class="form_body">
+      
+                  <div class="field">
+
+                    <div class="">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required id="name" minlength="3" maxlength="40" />
+                    </div>
+
+                  </div>
+
+                  <div class="field">
+                    <div class="">
+                        <label for="email">Email:</label>
+                        <input type="email" required name="email" id="email" />
+                    </div>
+                  </div>
+              </div>
+
+              <div class="">
+                <input id="btn" type="submit" value="submit" ></button>
+              </div>
+            </form>
+
+        </div>
+        
+    </div>
+
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
